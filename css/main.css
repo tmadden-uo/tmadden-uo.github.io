@@ -3,7 +3,7 @@ img{
 }
 body {
   background-color: #EED5D2;
-  font-family: "Lato"; /* OPTIONAL: Google Fonts - base font */
+  font-family: "Impact"; /* OPTIONAL: Google Fonts - base font */
   font-weight: 300;
   font-size: 16px;
   color: #698B69;
@@ -147,7 +147,7 @@ a:after {
 /* social icons: */
 .footer i {
   padding-right: 8px;
-  color: #1abc9c;
+  color: #556B2F;
 }
 
 /* Global Values */
