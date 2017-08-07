@@ -1,16 +1,27 @@
 
-<!DOCTYPE html>
+ <div class="topnav" id="myTopnav">
+   
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+   <a href="#campus">On Campus</a>
+  <a href="#achieve">Achievements</a>
+  <a href="#contact">Contact Me</a>
+
+</div>
+
+
 <html lang="en">
  <head>
  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
     <!-- OPTIONAL: description -->
-    <meta name="description" content="">
+    <meta name="description" content="Learn about Taylor">
     <!-- OPTIONAL: author -->
     <meta name="author" content="">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="icon.png" />
-   <title>The Webpage of Taylor Madden</title>
+   <title>Taylor Madden</title>
    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -22,20 +33,20 @@
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
+
  </head>
  <body>
 
 
-
+<section id="home" name="home"></section>
    <div class="header" id="headerwrap">
+     
      <div class="container">
+       
        <div class="row centered">
+      
          <div class="col-lg-12">
+
            <h1>Taylor Madden</h1>
            <h3>Undergrad at the University of Oregon  |  
             <a href="tayloremadden@gmail.com">tayloremadden@gmail.com</a>
@@ -55,7 +66,7 @@
          <h5>ABOUT ME</h5>
        </div>
        <div class="col-lg-6">
-<p>Hello! Welcome to my personally crafted webpage. I am a Freshman majoring in Computer and Information Science at the lovely University of Oregon.</p>
+<p>Hello! Welcome to my personally crafted webpage. I am a Sophmore majoring in Computer and Information Science at the lovely University of Oregon.</p>
 </div>
        <div class="col-lg-3">
          <p><a href="Taylor Madden Resume.pdf" target=”_blank”><i class="icon-file"></i> <sm>DOWNLOAD MY RESUME</sm></a></p>
@@ -67,6 +78,7 @@
  
 <section id="resume" name="resume"></section>
 	<!-- EDUCATION SECTION -->
+  <section id="education" name="education"></section>
 	<div class="container desc">
 		<div class="row">
 
@@ -102,11 +114,30 @@
 		<hr>
 	</div><!--/.container -->
   
- <!-- AWARDS SECTION -->
+<!-- ON CAMPUS -->
+       <section id="campus" name="campus"></section>
 	<div class="container desc">
 		<div class="row">
 				<div class="col-lg-2 col-lg-offset-1">
-					<h5>SCHOLARSHIPS AND ACHIEVEMENTS</h5>
+					<h5>ON CAMPUS</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Women in Computer Science</t><br/>
+						University of Oregon<br/>
+					</p>
+					<p><more>This student organization has goals to contribute to the success and increase the participation of women in the University of Oregon’s schools CIS department.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>FALL 2016 - PRESENT</sm></p>
+				</div>
+    </div>
+      
+ <!-- AWARDS SECTION -->
+  <section id="achieve" name="achieve"></section>
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>SCHOLARSHIPS, ACHIEVEMENTS, & CERTIFICATION</h5>
 				</div>
 
 				<!-- EDIT: awards line 1-->
@@ -158,31 +189,16 @@
 		<hr>
 	</div><!--/.container -->
 
-	<!-- AWARDS SECTION -->
-	<div class="container desc">
-		<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>ON CAMPUS</h5>
-				</div>
-
-				<!-- EDIT: awards line 1-->
-				<div class="col-lg-6">
-					<p><t>Women in Computer Science</t><br/>
-						University of Oregon<br/>
-					</p>
-					<p><more>This student organization has goals to contribute to the success and increase the participation of women in the University of Oregon’s schools CIS department.</more></p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>FALL 2016 - PRESENT</sm></p>
-				</div>
+	
 	
 
 		
 		</div><!--/.row -->
+     <section id="contact" name="contact"></section>
 		<br>
 
 </body>
-<section id="contact" name="contact"></section>
+
 	<!--FOOTER DESCRIPTION -->
 	<div id="footwrap" class="footer">
 		<div class="container">
@@ -193,24 +209,39 @@
 				</div>
 				<!-- EDIT: email -->
 				<div class="col-lg-6">
-					<p><t>Email</t><br/>
-						<a href="tayloremadden@gmail.com" class="mail">tayloremadden@gmail.com</a> <br/>
-
-					<!-- EDIT: phone number -->
-					<p><t>Phone</t><br/>
-						<a href="tel:5039564033" class="tel">(503) 956-4033</a> <br/>
-					</p>
+					<div id="form-main">
+  <div id="form-div">
+    <form class="form" id="form1">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Message"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
+            
 				</div>
-				<div class="col-lg-3">
-					<p><sm></sm></p>
-					<p>
-						<!-- EDIT: Social Links. Replace # with your URL for each -->
-						<a href="https://www.linkedin.com/in/taylor-madden-a31492139"><i class="icon-linkedin"></i></a>
-						<a href="https://github.com/maddentm7"><i class="icon-github"></i></a>
+				
 					</p>
 				</div>
 			</div><!--/.row -->
 		</div><!--/.container -->
 	</div><!--/ #footer -->
 </html>
-
+<div class="row sm" id-"sm">
+						<a href="https://www.linkedin.com/in/taylor-madden-a31492139"><i class="icon-linkedin"></i><img border="0" alt="W3Schools" src=http://cybersecurityventures.com/2015-wp/wp-content/uploads/2014/10/linkedin-icon.png width=15% height=15%></a>
+						<a href="https://github.com/maddentm7"><i class="icon-github"></i><img border="0" alt="W3Schools" src=https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png width=10% height=10%></a>
+          </div>
