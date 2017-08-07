@@ -223,6 +223,10 @@ a:after {
 sm {
   font-size: 12px;
 }
+#paper.center {
+   display: block;
+    margin: 0 auto;
+}
 
 .desc .col-lg-3 {
   text-transform: uppercase;
