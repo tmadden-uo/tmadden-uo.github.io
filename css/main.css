@@ -270,14 +270,14 @@ h5{
 	width:350px;
 }
 
-.name {
+.picturename {
 	position:absolute;
 	bottom:0px;	
 	width: 350px;
 	background-color:#85144B;
 }
 
-.name p {
+.picturename p {
   padding-top:10px;
   font-size:1.5em;
   color: white;
