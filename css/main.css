@@ -5,6 +5,11 @@
 .icon-github{
   border-radius:50%;
 }
+.tab{
+	position:absolute;
+	left:150px; 
+}
+
 body {
   padding-top: 0px;
   background-color: #EED5D2;
