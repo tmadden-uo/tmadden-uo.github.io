@@ -29,7 +29,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lora', serif; 
   font-weight: 300;
-  color: #333;
+  color:#EED5D2;
   
 }
 .boxed{
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #EED5D2;;
+    background-color: #EED5D2;
     color: #85144B;
 }
 
