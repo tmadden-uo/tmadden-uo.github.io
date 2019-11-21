@@ -33,13 +33,24 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 .boxed{
-	background-color: #a32901	
+	background-color: #a32901;	
 }
 .boxed a{
 	display: block;
 	text-align: center;
 	font-size: 17;
 	background-color: #2a2bc0;
+}
+
+.boxed a:hover {
+    background-color: #EED5D2;
+    color: #85144B;
+}
+
+/* Add a color to the active/current link */
+.boxed a.active {
+    background-color: #4CAF50;
+    color: white;
 }
 
 /* Add a background color to the top navigation */
