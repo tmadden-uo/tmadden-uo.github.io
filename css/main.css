@@ -103,7 +103,7 @@ p {
 
 /* Links */
 a {
-  color: #698B69;
+  color: #000000;
   word-wrap: break-word;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -144,7 +144,7 @@ a:after {
 
 /* Header Wrap */
 .header {
-  background: #FF851B;
+  background: #f49ac2;
   background: url(../images/header-bg.jpg) no-repeat center top;
   padding-top:140px;
   text-align:center;
@@ -181,7 +181,7 @@ a:after {
 
 /* About Wrap */
 .about {
-  background: #85144B;
+  background: #f49ac2;
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
@@ -198,6 +198,40 @@ a:after {
   vertical-align: middle;
 }
 
+.work {
+  background: #9799BA;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+} 
+
+.work h5, p {
+  color: white;
+}
+
+.work i {
+  color: white;
+  font-size: 20px;
+  padding-right: 8px;
+  vertical-align: middle;
+}
+.projects {
+  background: #ACE7FF;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+} 
+
+.projects h5, p {
+  color: white;
+}
+
+.projects i {
+  color: white;
+  font-size: 20px;
+  padding-right: 8px;
+  vertical-align: middle;
+}
 .footer {
   background: #CDB7B5;
   padding-top: 50px;
