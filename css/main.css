@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size:300;	
 }
 .boxed{
+	padding-top; 100px;
 	background-color: #EED5D2;	
 }
 .boxed a{
@@ -46,9 +47,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #a32901;
     background-color: #000000;
     text-align: center;
-    padding: 40px 45px;
+    padding: 25px 25px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .boxed a:hover {
