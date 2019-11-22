@@ -21,7 +21,7 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 #picme {
-   padding: 0px;
+   padding-bottom: 60px;
 }
 
 /* Titles */
