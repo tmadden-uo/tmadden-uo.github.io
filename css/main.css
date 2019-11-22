@@ -33,7 +33,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .top-text{
 	padding-top: 100px;
-	padding-bottom:50px;
+	padding-bottom:150px;
+}
+.top-text h1{
+	font-weight:500;	
 }
 .boxed{
 	background-color: #EED5D2;	
