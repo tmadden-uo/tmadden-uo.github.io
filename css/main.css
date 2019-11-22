@@ -27,7 +27,6 @@ body {
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lora', serif; 
-  font-weight: 350;
   color:#000000;
   
 }
@@ -36,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom:150px;
 }
 .top-text h1{
-	font-weight:500;	
+	font-size:500;	
 }
 .boxed{
 	background-color: #EED5D2;	
@@ -47,9 +46,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #a32901;
     background-color: #000000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 40px 45px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 30px;
 }
 
 .boxed a:hover {
