@@ -1,6 +1,5 @@
 #me{
-  border-radius:50%;
-  padding = 10px;
+  padding = 20px;
 }
 .icon-github{
   border-radius:50%;
@@ -22,7 +21,7 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 #picme {
-   padding: 40px;
+   padding: 60px;
 }
 
 /* Titles */
