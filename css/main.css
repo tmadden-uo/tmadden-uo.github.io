@@ -32,12 +32,12 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 .boxed{
-	background-color: #a32901;	
+	background-color: #EED5D2;	
 }
 .boxed a{
     float: left;
     display: block;
-    color: #EED5D2;
+    color: #a32901;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -45,8 +45,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .boxed a:hover {
-    background-color: #EED5D2;
-    color: #85144B;
+    background-color: #a32901;
+    color: #EED5D2;
 }
 
 /* Add a color to the active/current link */
