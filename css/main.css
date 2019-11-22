@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
   color:#000000;
   
 }
+.top-text{
+	padding-top: 100px;
+	padding-bottom:50px;
+}
 .boxed{
 	background-color: #EED5D2;	
 }
@@ -38,6 +42,7 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     display: block;
     color: #a32901;
+    background-color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
